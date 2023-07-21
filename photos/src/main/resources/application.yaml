@@ -5,5 +5,5 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          #issuer-uri: http://localhost:8080/realms/appsdeveloperblog
+          issuer-uri: http://localhost:8080/realms/appsdeveloperblog
           jwk-set-uri: http://localhost:8080/realms/appsdeveloperblog/protocol/openid-connect/certs
