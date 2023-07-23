@@ -1,6 +1,6 @@
-package org.dmly.ws.api.resource_server.controllers;
+package org.dmly.ws.api.photos.controllers;
 
-import org.dmly.ws.api.resource_server.dto.PhotoDto;
+import org.dmly.ws.api.photos.dto.PhotoDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

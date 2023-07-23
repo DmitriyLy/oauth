@@ -1,4 +1,4 @@
-package org.dmly.ws.api.resource_server.security;
+package org.dmly.ws.api.albums.security;
 
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.security.core.GrantedAuthority;

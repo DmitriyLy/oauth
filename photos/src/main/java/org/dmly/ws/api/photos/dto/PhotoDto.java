@@ -1,4 +1,4 @@
-package org.dmly.ws.api.resource_server.dto;
+package org.dmly.ws.api.photos.dto;
 
 public record PhotoDto(String userId,
                        String photoId,

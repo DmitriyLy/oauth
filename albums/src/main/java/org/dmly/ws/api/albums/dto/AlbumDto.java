@@ -1,4 +1,4 @@
-package org.dmly.ws.api.resource_server.dto;
+package org.dmly.ws.api.albums.dto;
 
 public record AlbumDto(String userId,
                        String albumId,

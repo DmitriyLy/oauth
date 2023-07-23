@@ -1,4 +1,4 @@
-package org.dmly.ws.api.resource_server;
+package org.dmly.ws.api.albums;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

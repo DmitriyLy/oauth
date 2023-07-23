@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 0
 spring:
   security:
     oauth2:
@@ -7,6 +7,8 @@ spring:
         jwt:
           issuer-uri: http://localhost:8080/realms/appsdeveloperblog
           jwk-set-uri: http://localhost:8080/realms/appsdeveloperblog/protocol/openid-connect/certs
+  application:
+    name: demo-albums
 
 eureka:
   client:
@@ -14,3 +16,4 @@ eureka:
       defaultZone: http://localhost:8010/eureka
   instance:
     appname: demo-albums
+    instance-id: ${spring.application.name}:${instanceId:${random.value}}

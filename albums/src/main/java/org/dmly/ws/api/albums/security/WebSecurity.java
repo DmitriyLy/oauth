@@ -1,4 +1,4 @@
-package org.dmly.ws.api.resource_server.security;
+package org.dmly.ws.api.albums.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
