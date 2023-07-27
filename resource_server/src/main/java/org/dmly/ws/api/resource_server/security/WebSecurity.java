@@ -28,7 +28,7 @@ public class WebSecurity {
         jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(new KeycloakRoleConverter());
 
         httpSecurity
-                .cors(withDefaults())
+                //.cors(withDefaults())
                 .authorizeHttpRequests(auth ->
                         auth
                                 .requestMatchers(HttpMethod.GET, "/users/status/check")
@@ -46,7 +46,7 @@ public class WebSecurity {
         return httpSecurity.build();
     }
 
-    @Bean
+    /*@Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(List.of("*"));
@@ -56,6 +56,6 @@ public class WebSecurity {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", configuration);
         return source;
-    }
+    }*/
 
 }
